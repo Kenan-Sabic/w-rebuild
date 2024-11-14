@@ -4,8 +4,9 @@ Scripts to automate reinstallation of packages I commonly use on full installati
 
 # Software Installed
 
-## Browsers
+## Browsers and network
 Firefox
+qBittorrent
 
 ## Archive Tools
 7zip
@@ -23,6 +24,8 @@ GOG Galaxy
 
 ## Messaging
 Discord
+Viber
+Whatsapp
 
 ## Development
 Git
@@ -33,11 +36,14 @@ Visual Studio Code
 Libre Office
 Okular
 
-##Torrent Client
-qBittorrent
+## Customization
+Rainmeter
+TranslucentTB
 
 ## Other tools
 HidHide
 DS4Windows
-
-
+Rufus
+Virtual Gamepad Emulation Framework
+Open Hardware Monitor
+AutoHotkey
