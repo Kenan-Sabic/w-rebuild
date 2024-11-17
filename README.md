@@ -1,6 +1,8 @@
 # windows-rebuild
 Scripts to automate reinstallation of packages I commonly use on full installations of windows (plenty of disk space)
 
+The script uses Winget and Chocolatey (depending on the package) to install the software.
+
 
 # Software Installed
 
@@ -29,21 +31,17 @@ Whatsapp
 
 ## Development
 Git
-Python
 Visual Studio Code
 
 ## Office
-Libre Office
-Okular
+OnlyOffice
+SumatraPdf
 
 ## Customization
 Rainmeter
 TranslucentTB
 
 ## Other tools
-HidHide
-DS4Windows
 Rufus
-Virtual Gamepad Emulation Framework
 Open Hardware Monitor
 AutoHotkey
