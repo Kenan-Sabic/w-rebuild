@@ -20,24 +20,33 @@ OBS Studio
 
 ## Multimedia
 Stremio
+
+
 VLC Media Player
 
 ## Games
 Steam
+
+
 GOG Galaxy
 
 ## Messaging
 Discord
+
+
 Viber
+
+
 Whatsapp
 
 ## Development
 Git
+
+
 Visual Studio Code
 
 ## Office
 OnlyOffice
-SumatraPdf
 
 ## Customization
 Rainmeter
