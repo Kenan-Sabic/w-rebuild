@@ -8,6 +8,8 @@ The script uses Winget and Chocolatey (depending on the package) to install the 
 
 ## Browsers and network
 Firefox
+
+
 qBittorrent
 
 ## Archive Tools
