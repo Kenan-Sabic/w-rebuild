@@ -1,7 +1,17 @@
 # windows-rebuild
-Scripts to automate reinstallation of packages I commonly use on full installations of windows (plenty of disk space)
+Collection of scripts I personally use to configure my fresh installations of windows (10,11, Tiny11).
+They are meant to automate the process of reinstalling and configuring all of the things I need on fresh installations of windows as I found myself frequently reinstalling
+operating systems and having to configure them manually would often take too long thus I created these scripts to help speed things along.
 
-The script uses Winget and Chocolatey (depending on the package) to install the software.
+Here is a quick overview of scripts included:
+
+> rebuild-installer.ps1 - installs software using chocolatey
+
+> rebuild-updated.ps1 - updates software installed with chocolatey (run it on schedule)
+
+> more to come...
+
+
 
 
 # Software Installed
@@ -53,9 +63,12 @@ Rainmeter
 
 ## Other tools
 Rufus
+
 PowerToys
+
 AutoHotkey
 
+KeePassXC
 #Different Windows Versions
 The scripts were tested using VMs ran on HyperV, this has the effect of not having hybernation enabled by default, hybernation in my own testing using machines with around 16 to 20Gb of ram produces a file roughly the size of 6 to 8Gb.
 On bare metal this file will be present by default increasing the size of all figures below by roughly 6 to 10Gb.
