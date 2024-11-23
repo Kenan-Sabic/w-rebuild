@@ -1,32 +1,44 @@
 # windows-rebuild
-Collection of scripts I personally use to configure my fresh installations of windows (10,11, Tiny11).
-They are meant to automate the process of reinstalling and configuring all of the things I need on fresh installations of windows as I found myself frequently reinstalling
+Collection of scripts I personally use to configure my fresh installations of windows (10, 11, Tiny11).
+They are meant to automate the process of reinstalling and configuring all of the things I need on fresh installations of Windows as I found myself frequently reinstalling
 operating systems and having to configure them manually would often take too long thus I created these scripts to help speed things along.
 
 Here is a quick overview of scripts included:
 
-> rebuild-installer.ps1 - installs software using chocolatey
+-rebuild-installer.ps1 - installs software using chocolatey
 
-> rebuild-updated.ps1 - updates software installed with chocolatey (run it on schedule)
-
-> more to come...
+-rebuild-updater.ps1 - updates software installed with chocolatey (run it on schedule)
 
 
 
+-more to come...
 
-# Software Installed
+Below you can find the sections going more in depth on each of the scripts
+
+#Installer Script
+
+The installer script is used to install
+
+##Software Installed
 
 ## Browsers and network
 Firefox
 
+Brave
+
+Filezilla
 
 qBittorrent
+
+Wireshark
 
 ## Archive Tools
 7zip
 
 ## Recording
 OBS Studio
+
+ShareX
 
 ## Multimedia
 Stremio
@@ -49,8 +61,19 @@ Discord
 ## Development
 Git
 
-
 Kate
+
+Neovim
+
+Visual Studio Code
+
+Python
+
+NodeJS
+
+MinGW-w64
+
+Alacritty
 
 ## Office
 OnlyOffice Desktop
@@ -60,7 +83,13 @@ Okular
 ## Customization
 Rainmeter
 
+Winaero Tweaker
 
+Classic Shell
+
+TranslucentTB
+
+Lively
 ## Other tools
 Rufus
 
@@ -69,6 +98,7 @@ PowerToys
 AutoHotkey
 
 KeePassXC
+
 #Different Windows Versions
 The scripts were tested using VMs ran on HyperV, this has the effect of not having hybernation enabled by default, hybernation in my own testing using machines with around 16 to 20Gb of ram produces a file roughly the size of 6 to 8Gb.
 On bare metal this file will be present by default increasing the size of all figures below by roughly 6 to 10Gb.
