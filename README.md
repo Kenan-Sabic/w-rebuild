@@ -21,6 +21,7 @@ OBS Studio
 ## Multimedia
 Stremio
 
+Miru
 
 VLC Media Player
 
@@ -30,14 +31,10 @@ Steam
 Gog Galaxy
 
 itch
+
+Prism Launcher
 ## Messaging
 Discord
-
-
-Viber
-
-
-Whatsapp
 
 ## Development
 Git
@@ -52,7 +49,8 @@ Okular
 
 ## Customization
 Rainmeter
-Open Shell Menu
+
+
 ## Other tools
 Rufus
 PowerToys
