@@ -13,8 +13,8 @@ Here is a quick overview of scripts included:
 
 -more to come...
 
-###How to use scripts
-Extract the zip. Open up powershell in the location where you put them and run this first 
+### How to use scripts
+Extract the zip. Open up powershell as administrator in the location where you put them and run this first 
 ```
 Set-ExecutionPolicy Unrestricted
 ```
@@ -25,11 +25,27 @@ Afterwards you can type
 and hit enter. 
 After that just navigate them menus in scripts and let them run.
 
+**DISCLAIMER: These scripts have been made for my personal use, I am in no way liable if your computer breaks 
+because you ran some guy's script off the internet. Always be responsible with technology.**
+
 Below you can find the sections going more in depth on each of the scripts
 
 #Installer Script
 
-The installer script is used to install
+The installer script is used to install a list of software using chocolatey, might make a winget version later too.
+The software is split into categories and you are given the option of whether to install all of it or to customize your install.
+The actual list of software and their package names are present in the file and you can open it up in any text editor
+and add or remove whatever you wish. 
+If you wish to add some other software to the script just look up the package names on 
+
+https://community.chocolatey.org/packages 
+
+The script also provides a transcript file each time it is run so you can check out if anything failed
+spectacularly and try to figure out the problem. Some packages can break sometimes so do check out the package page
+on chocolatey website to see if there is a solution, or just don't install the package.
+
+As far as the installation of applications is concerned in most cases you can simply use the default windows installation for programs
+through the GUI or you could try to uninstall the package through chocolatey. 
 
 ##Software Installed
 
