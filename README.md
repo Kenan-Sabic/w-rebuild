@@ -13,6 +13,18 @@ Here is a quick overview of scripts included:
 
 -more to come...
 
+###How to use scripts
+Extract the zip. Open up powershell in the location where you put them and run this first 
+```
+Set-ExecutionPolicy unrestricted
+```
+Afterwards you can type 
+```
+.\<nameOfScriptYouWishToRun
+```
+and hit enter. 
+After that just navigate them menus in scripts and let them run.
+
 Below you can find the sections going more in depth on each of the scripts
 
 #Installer Script
