@@ -92,16 +92,16 @@ function Main {
 
     # Define package categories and software
     $packages = @{
-        "Browsers and network" = @("firefox", "qbittorrent")
+        "Browsers and network" = @("firefox", "brave", "filezilla", "qbittorrent", "wireshark")
         "Archive Tools" = @("7zip")
-        "Recording" = @("obs-studio")
+        "Recording" = @("obs-studio", "sharex")
         "Multimedia" = @("stremio", "miru", "vlc")
         "Games" = @("steam", "goggalaxy", "itch", "prismlauncher")
         "Messaging" = @("discord")
-        "Development" = @("git", "kate")
+        "Development" = @("git", "kate", "neovim", "vscode", "python", "nodejs", "mingw", "alacritty")
         "Office" = @("onlyoffice", "okular")
-        "Customization" = @("rainmeter")
-        "Other tools" = @("rufus", "powertoys", "autohotkey")
+        "Customization" = @("rainmeter", "classic-shell", "translucenttb", "lively")
+        "Other tools" = @("rufus", "powertoys", "autohotkey", "keepassxc")
     }
 
     # Prompt user for full or custom install
