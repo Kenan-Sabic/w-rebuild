@@ -205,7 +205,7 @@ Windows 10 After updates: 26Gb
 Windows 10 after manually removing bloatware: 24.3Gb
 
 ##Windows 11
-Windows 11 Fresh Install:
+Windows 11 Fresh Install:22Gb
 
 Windows 11 After Updates:
 
