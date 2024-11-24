@@ -126,11 +126,11 @@ function Main {
         "Archive Tools" = @("7zip")
         "Recording" = @("obs-studio", "sharex")
         "Multimedia" = @("stremio", "miru", "vlc")
-        "Games" = @("steam", "goggalaxy", "itch", "prismlauncher")
+        "Games" = @("steam", "goggalaxy", "prismlauncher")
         "Messaging" = @("discord")
-        "Development" = @("git", "kate", "neovim", "vscode", "python", "nodejs", "mingw", "alacritty")
+        "Development" = @("git", "kate", "neovim", "vscode", "python", "nodejs", "mingw")
         "Office" = @("onlyoffice", "okular")
-        "Customization" = @("rainmeter", "classic-shell", "translucenttb", "lively")
+        "Customization" = @("rainmeter", "classic-shell", "lively")
         "Other tools" = @("rufus", "powertoys", "autohotkey", "keepassxc")
     }
 
