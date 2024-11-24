@@ -1,29 +1,50 @@
+# Start Transcript
+$transcriptPath = "$(Get-Location)\install_transcript_$(Get-Date -Format 'yyyy-MM-dd_HH-mm-ss').txt"
+Start-Transcript -Path $transcriptPath
+
+# Helper function: Display a message
+function Display-And-Log {
+    param (
+        [string]$Message,
+        [string]$Color = "White"
+    )
+    Write-Host $Message -ForegroundColor $Color
+}
+
 # Helper function: Check if Chocolatey is installed
 function Check-Chocolatey {
     if (-not (Get-Command choco -ErrorAction SilentlyContinue)) {
-        Write-Host "Chocolatey is not installed on this system." -ForegroundColor Yellow
+        Display-And-Log "Chocolatey is not installed on this system." "Yellow"
         $response = Read-Host "Would you like to install Chocolatey? (y/n)"
         if ($response -eq "y") {
             Install-Chocolatey
         } else {
-            Write-Host "Chocolatey is required to proceed. Exiting script." -ForegroundColor Red
+            Display-And-Log "Chocolatey is required to proceed. Exiting script." "Red"
+            Stop-Transcript
             exit
         }
     } else {
-        Write-Host "Chocolatey is installed." -ForegroundColor Green
+        Display-And-Log "Chocolatey is installed." "Green"
     }
 }
 
 # Helper function: Install Chocolatey
 function Install-Chocolatey {
-    Write-Host "Installing Chocolatey..." -ForegroundColor Cyan
+    Display-And-Log "Installing Chocolatey..." "Cyan"
     Set-ExecutionPolicy Bypass -Scope Process -Force
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-    Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-    Write-Host "Chocolatey installed successfully." -ForegroundColor Green
-    Write-Host "Restarting PowerShell to refresh environment..."
-    Start-Process powershell -ArgumentList "-NoProfile", "-ExecutionPolicy Bypass", "-File", $MyInvocation.MyCommand.Definition -Verb RunAs
-    exit
+    try {
+        Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+        Display-And-Log "Chocolatey installed successfully." "Green"
+        Display-And-Log "Restarting PowerShell to refresh environment..."
+        Start-Process powershell -ArgumentList "-NoProfile", "-ExecutionPolicy Bypass", "-File", $MyInvocation.MyCommand.Definition -Verb RunAs
+        Stop-Transcript
+        exit
+    } catch {
+        Display-And-Log "Failed to install Chocolatey. Exiting." "Red"
+        Stop-Transcript
+        exit
+    }
 }
 
 # Helper function: Display a menu and return selection
@@ -34,7 +55,7 @@ function Display-Menu {
         [array]$enabledByDefault
     )
 
-    Write-Host "`n$title" -ForegroundColor Cyan
+    Display-And-Log "`n$title" "Cyan"
     $enabledItems = $enabledByDefault.Clone()
     $isDone = $false
 
@@ -55,10 +76,10 @@ function Display-Menu {
             if ($index -ge 0 -and $index -lt $items.Count) {
                 $enabledItems[$index] = -not $enabledItems[$index]
             } else {
-                Write-Host "Invalid choice. Please select a valid number." -ForegroundColor Yellow
+                Display-And-Log "Invalid choice. Please select a valid number." "Yellow"
             }
         } else {
-            Write-Host "Invalid input. Please try again." -ForegroundColor Yellow
+            Display-And-Log "Invalid input. Please try again." "Yellow"
         }
     }
 
@@ -72,17 +93,26 @@ function Install-Software {
     )
 
     if (-not $softwareList) {
-        Write-Host "No software selected. Exiting." -ForegroundColor Red
+        Display-And-Log "No software selected. Exiting." "Red"
+        Stop-Transcript
         exit
     }
 
-    Write-Host "`nInstalling selected software:" -ForegroundColor Green
+    Display-And-Log "`nInstalling selected software:" "Green"
     foreach ($software in $softwareList) {
-        Write-Host "Installing $software..."
-        choco install $software -y
+        try {
+            Display-And-Log "Installing $software..." "Yellow"
+            choco install $software -y
+            if ($LASTEXITCODE -ne 0) {
+                throw "Installation failed for $software with exit code $LASTEXITCODE"
+            }
+            Display-And-Log "$software installed successfully." "Green"
+        } catch {
+            Display-And-Log "Failed to install $software. Check the transcript for details." "Red"
+        }
     }
 
-    Write-Host "`nInstallation complete!" -ForegroundColor Cyan
+    Display-And-Log "`nInstallation complete!" "Cyan"
 }
 
 # Main Script Logic
@@ -105,15 +135,15 @@ function Main {
     }
 
     # Prompt user for full or custom install
-    Write-Host "`nWelcome to the automated installer script!" -ForegroundColor Cyan
+    Display-And-Log "`nWelcome to the automated installer script!" "Cyan"
     Write-Host "1. Perform full install (all software)"
     Write-Host "2. Customize installation"
     $choice = Read-Host "Enter your choice (1 or 2)"
     switch ($choice) {
         "1" {
-            # Full install: Install all software
-            $allSoftware = $packages.Values | ForEach-Object { $_ }
-            Install-Software -softwareList $allSoftware
+             # Full install: Install all software
+                $allSoftware = $packages.Values | ForEach-Object { $_ } | ForEach-Object { $_ }
+                Install-Software -softwareList $allSoftware
         }
         "2" {
             # Custom install: Display category and software menus
@@ -131,7 +161,8 @@ function Main {
             Install-Software -softwareList $selectedSoftware
         }
         default {
-            Write-Host "Invalid choice. Exiting." -ForegroundColor Red
+            Display-And-Log "Invalid choice. Exiting." "Red"
+            Stop-Transcript
             exit
         }
     }
@@ -139,3 +170,6 @@ function Main {
 
 # Run the main script logic
 Main
+
+# End the transcript
+Stop-Transcript
