@@ -16,11 +16,11 @@ Here is a quick overview of scripts included:
 ###How to use scripts
 Extract the zip. Open up powershell in the location where you put them and run this first 
 ```
-Set-ExecutionPolicy unrestricted
+Set-ExecutionPolicy Unrestricted
 ```
 Afterwards you can type 
 ```
-.\<nameOfScriptYouWishToRun
+.\<nameOfScriptYouWishToRun>
 ```
 and hit enter. 
 After that just navigate them menus in scripts and let them run.
