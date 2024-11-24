@@ -205,12 +205,16 @@ Windows 10 After updates: 26Gb
 Windows 10 after manually removing bloatware: 24.3Gb
 
 ##Windows 11
-Windows 11 Fresh Install:22Gb
+Windows 11 Fresh Install: 22Gb
 
-Windows 11 After Updates:
+Windows 11 After Updates: 27Gb
 
-Windows 11 after manually removing bloatware:
+Windows 11 after manually removing bloatware: 26Gb
 
 ##Tiny 11 (made using Tiny11 builder script)
 Tiny11 Fresh Install: 10Gb
+
 Tiny11 After Updates: 16Gb
+
+No bloat here :3
+
