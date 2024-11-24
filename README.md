@@ -64,11 +64,11 @@ Steam
 
 Gog Galaxy
 
-itch
+itch (has some issues with silent installer, worked on windows 10, but not on 11)
 
 Prism Launcher
 ## Messaging
-Discord
+Discord  (has issues with silent installer, apparently there is a fix)
 
 ## Development
 Git
@@ -85,7 +85,7 @@ NodeJS
 
 MinGW-w64
 
-Alacritty
+Alacritty (had issues on where application couldn't open upon installation)
 
 ## Office
 OnlyOffice Desktop
@@ -95,15 +95,15 @@ Okular
 ## Customization
 Rainmeter
 
-Winaero Tweaker
+Winaero Tweaker  (had some issues with installation, might need to do it manually)
 
 Classic Shell
 
-TranslucentTB
+TranslucentTB  (wouldn't install on windows 11, apparently hashes didn't match)
 
 Lively
 ## Other tools
-Rufus
+Rufus  (installs but can be hidden inside the bin directory of chocolatey inside ProgramData)
 
 PowerToys
 
