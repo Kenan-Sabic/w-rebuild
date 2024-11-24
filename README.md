@@ -190,13 +190,15 @@ Windows 10 Fresh install: 20Gb
 
 Windows 10 After updates: 26Gb
 
-Disk size by removing bloatware: 24.3Gb
+Windows 10 after manually removing bloatware: 24.3Gb
 
 ##Windows 11
 Windows 11 Fresh Install:
 
 Windows 11 After Updates:
 
-##Tiny 11
-Tiny11 Fresh Install:
-Tiny11 After Updates:
+Windows 11 after manually removing bloatware:
+
+##Tiny 11 (made using Tiny11 builder script)
+Tiny11 Fresh Install: 10Gb
+Tiny11 After Updates: 16Gb
