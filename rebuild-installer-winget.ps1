@@ -88,9 +88,6 @@ function Install-Software-Winget {
             Display-And-Log "$software installed successfully." "Green"
         } catch {
             Display-And-Log "Failed to install $software. Check the transcript for details." "Red"
-            $errorMessage = $_.Exception.Message
-            Log-Message "Error installing ${software}: ${errorMessage}"
-            Log-Message "Full error record: $($_ | Out-String)"
         }
     }
 
@@ -109,9 +106,9 @@ function Main-Winget {
         "Recording and Streaming" = @("OBSProject.OBSStudio", "ShareX.ShareX")
         "Multimedia" = @("Stremio.Stremio", "ThaUnknown.Miru", "VideoLAN.VLC")
         "Games" = @("Valve.Steam", "GOG.Galaxy", "ItchIo.Itch", "ATLauncher.ATLauncher")
-        "Messaging" = @("Discord.Discord")
-        "Development" = @("Git.Git", "KDE.Kate", "Neovim.Neovim", "Microsoft.VisualStudioCode", "Python.Python.3.11", "OpenJS.NodeJS", "Alacritty.Alacritty")
-        "Office" = @("ONLYOFFICE.DesktopEditors", "KDE.Okular.Nightly")
+        "Messaging" = @("Discord.Discord", "WhatsApp.WhatsApp")
+        "Development" = @("Git.Git", "KDE.Kate", "Neovim.Neovim", "Microsoft.VisualStudioCode", "Python.Python.3.11", "OpenJS.NodeJS")
+        "Office" = @("ONLYOFFICE.DesktopEditors", "KDE.Okular")
         "Customization" = @("Rainmeter.Rainmeter", "IvoSoft.ClassicShell", "rocksdainster.LivelyWallpaper")
         "Other Tools" = @("Rufus.Rufus", "Microsoft.PowerToys", "AutoHotkey.AutoHotkey", "KeePassXCTeam.KeePassXC")
     }
