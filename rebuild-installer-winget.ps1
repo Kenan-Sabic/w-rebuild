@@ -109,7 +109,7 @@ function Main-Winget {
         "Messaging" = @("Discord.Discord", "WhatsApp.WhatsApp")
         "Development" = @("Git.Git", "KDE.Kate", "Neovim.Neovim", "Microsoft.VisualStudioCode", "Python.Python.3.11", "OpenJS.NodeJS")
         "Office" = @("ONLYOFFICE.DesktopEditors", "KDE.Okular")
-        "Customization" = @("Rainmeter.Rainmeter", "IvoSoft.ClassicShell", "rocksdainster.LivelyWallpaper")
+        "Customization" = @("Rainmeter.Rainmeter")
         "Other Tools" = @("Rufus.Rufus", "Microsoft.PowerToys", "AutoHotkey.AutoHotkey", "KeePassXCTeam.KeePassXC")
     }
 
@@ -121,7 +121,7 @@ function Main-Winget {
     switch ($choice) {
         "1" {
             # Full install: Install all software
-            $allSoftware = $packages.Values | ForEach-Object { $_ } | Select-Object -ExpandProperty *
+            $allSoftware = $packages.Values | ForEach-Object { $_ }
             Install-Software-Winget -softwareList $allSoftware
         }
         "2" {
