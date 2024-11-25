@@ -20,7 +20,7 @@ Set-ExecutionPolicy Unrestricted
 ```
 Afterwards you can type 
 ```
-.\<nameOfScriptYouWishToRun>
+.\<nameOfScript>
 ```
 and hit enter. 
 After that just navigate them menus in scripts and let them run.
@@ -47,7 +47,7 @@ on chocolatey website to see if there is a solution, or just don't install the p
 As far as the installation of applications is concerned in most cases you can simply use the default windows installation for programs
 through the GUI or you could try to uninstall the package through chocolatey. 
 
-##Software Installed
+## Software Installed
 
 ## Browsers and network
 Firefox
@@ -128,11 +128,16 @@ AutoHotkey
 KeePassXC
 
 # Winget installer version
+
 Some packages seem to not work properly 
-KDE.Okular.Nightly
+
+KDE.Okular.Nightly (replaced with KDE.Okular)
+
+Lively (fails to install with script, install from microsoft store instead)
+
 Alacritty (doesn't work here either)
 
-#Different Windows Versions
+# Different Windows Versions
 The scripts were tested using VMs ran on HyperV, this has the effect of not having hybernation enabled by default, hybernation in my own testing using machines with around 16 to 20Gb of ram produces a hybernation f ile roughly the size of 6 to 10Gb.
 On bare metal this file will be present by default increasing the size of all figures below by roughly 6 to 10Gb.
 
