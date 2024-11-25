@@ -1,3 +1,15 @@
+# Start Transcript
+$transcriptPath = "$(Get-Location)\install_transcript_winget_$(Get-Date -Format 'yyyy-MM-dd_HH-mm-ss').txt"
+Start-Transcript -Path $transcriptPath
+
+# Helper function: Display a message
+function Display-And-Log {
+    param (
+        [string]$Message,
+        [string]$Color = "White"
+    )
+    Write-Host $Message -ForegroundColor $Color
+}
 
 # Helper function: Check if Winget is installed
 function Check-Winget {
@@ -10,6 +22,48 @@ function Check-Winget {
         Display-And-Log "Winget is installed." "Green"
     }
 }
+
+# Helper function: Display a menu and return selection
+function Display-Menu {
+    param (
+        [string]$title,
+        [array]$items,
+        [array]$enabledByDefault
+    )
+
+    Display-And-Log "`n$title" "Cyan"
+    $enabledItems = $enabledByDefault.Clone()
+    $isDone = $false
+
+    while (-not $isDone) {
+        Write-Host "`nSelect items to exclude/include:"
+        for ($i = 0; $i -lt $items.Count; $i++) {
+            $status = if ($enabledItems[$i]) { "[X]" } else { "[ ]" }
+            Write-Host "$($i + 1). $status $($items[$i])"
+        }
+        Write-Host "`nPress the number to toggle selection."
+        Write-Host "Press Enter to confirm and proceed."
+
+        $input = Read-Host "Your choice (number or Enter to finish)"
+        if ([string]::IsNullOrWhiteSpace($input)) {
+            $isDone = $true
+        } elseif ($input -match '^\d+$') {
+            $index = [int]$input - 1
+            if ($index -ge 0 -and $index -lt $items.Count) {
+                $enabledItems[$index] = -not $enabledItems[$index]
+            } else {
+                Display-And-Log "Invalid choice. Please select a valid number." "Yellow"
+            }
+        } else {
+            Display-And-Log "Invalid input. Please try again." "Yellow"
+        }
+    }
+
+    return $items | Where-Object { $enabledItems[$items.IndexOf($_)] }
+}
+
+
+
 
 # Helper function: Install selected software using Winget
 function Install-Software-Winget {
