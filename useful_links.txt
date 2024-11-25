@@ -1,0 +1,54 @@
+Useful software and tweakers I wish to keep handy
+
+Reddit post I got most of these from - https://www.reddit.com/r/Windows11/comments/1btqr50/i_collected_as_many_tweakstools_as_i_could_from/
+
+Chris Titus clean win11 install - https://christitus.com/windows-11-perfect-install/
+
+Bleachbit (FOSS) cleaner/shredder for windows and linux - https://www.bleachbit.org/
+
+Bloatynosy (FOSS MIT) debloat win11 - https://github.com/builtbybel/BloatyNosy/releases
+
+Winaero tweaker (Freeware) tweaks/registry tweaks and debloat - https://winaero.com/winaero-tweaker/#download
+
+Windhawk (windows customization and some other tools FOSS GPL) - https://windhawk.net/
+
+Explorer Patcher (FOSS GPL) tweaks explorer to make it better - https://github.com/valinet/ExplorerPatcher
+
+Rectify installer (FOSS) makes windows more consistent somehow - https://github.com/Rectify11/Installer
+
+Open Shell (FOSS MIT) brings back old start menu - https://open-shell.github.io/Open-Shell-Menu/
+
+MSEdge redirect (FOSS) removes edge opening on various links  and open your default browser - https://github.com/rcmaehl/MSEdgeRedirect/
+
+AveYo Fox (FOSS) some browser tweaks - https://github.com/AveYo/fox
+
+Bulk-Crap-Uninstaller (FOSS Apache) removes bloat quickly in bulk - https://github.com/Klocman/Bulk-Crap-Uninstaller
+
+Compactor (FOSS) system compression with GUI - https://github.com/Freaky/Compactor
+
+Files (FOSS MIT) a better file manager wow - https://github.com/files-community/files/
+
+Beautysearch (FOSS GPL) make search look pretty - https://github.com/krlvm/BeautySearch
+
+Flow Launcher (FOSS MIT) makes launching pretty and quick on windows - https://www.flowlauncher.com/
+
+Nilesoft shell (FOSS) powerful context menu - https://nilesoft.org/
+
+File Converter (FOSS) convert and compress files from right click - https://github.com/Tichau/FileConverter
+
+TwinkleTray (FOSS MIT) easy brightness adjust menu just like KDE Plasma has - https://twinkletray.com/
+
+EarTrumpet (FOSS) beautiful volume adjuster - https://eartrumpet.app/
+
+Nora (FOSS) beautiful music player - https://github.com/Sandakan/Nora
+
+UniGetUi (FOSS MIT) GUI for your package managers - https://github.com/marticliment/UniGetUI
+
+Powertoys (FOSS I guess) - https://learn.microsoft.com/en-us/windows/powertoys/
+
+
+
+
+
+
+
