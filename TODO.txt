@@ -1,0 +1,12 @@
+Figure out tweaks you want to use in your system
+
+Figure out software you wish to use in your next system
+
+Figure out if there is a way to mount a virtual machine/virtual disk as a bare metal system and if there are any downsides to it.
+
+Do more testing in virtual machine, specifically test the third party tweakers and recommended software
+
+Decide whether to keep using 10 or switch to 11
+
+Figure out partition scheme for next system/setup
+
