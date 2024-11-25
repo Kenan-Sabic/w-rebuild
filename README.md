@@ -127,8 +127,13 @@ AutoHotkey
 
 KeePassXC
 
+# Winget installer version
+Some packages seem to not work properly 
+KDE.Okular.Nightly
+Alacritty (doesn't work here either)
+
 #Different Windows Versions
-The scripts were tested using VMs ran on HyperV, this has the effect of not having hybernation enabled by default, hybernation in my own testing using machines with around 16 to 20Gb of ram produces a file roughly the size of 6 to 8Gb.
+The scripts were tested using VMs ran on HyperV, this has the effect of not having hybernation enabled by default, hybernation in my own testing using machines with around 16 to 20Gb of ram produces a hybernation f ile roughly the size of 6 to 10Gb.
 On bare metal this file will be present by default increasing the size of all figures below by roughly 6 to 10Gb.
 
 
