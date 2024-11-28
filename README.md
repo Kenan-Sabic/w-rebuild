@@ -131,6 +131,8 @@ KeePassXC
 
 Sysinternals
 
+Windows Assessment and Deployment Kit
+
 # Winget installer version
 
 
