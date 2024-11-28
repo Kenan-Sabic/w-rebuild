@@ -1,4 +1,4 @@
-Useful software and tweakers I wish to keep handy
+Links to useful software and guides to keep handy
 
 Reddit post I got most of these from - https://www.reddit.com/r/Windows11/comments/1btqr50/i_collected_as_many_tweakstools_as_i_could_from/
 
@@ -47,7 +47,9 @@ UniGetUi (FOSS MIT) GUI for your package managers - https://github.com/marticlim
 
 Powertoys (FOSS I guess) - https://learn.microsoft.com/en-us/windows/powertoys/
 
+UnattendedWinstall (FOSS MIT) Unattend file for windows 10/11 to debloat it - https://github.com/memstechtips/UnattendedWinstall
 
+Windows Hardening (FOSS GPL) Guidelines for hardening windows installations - https://github.com/beerisgood/Windows11_Hardening
 
 
 
