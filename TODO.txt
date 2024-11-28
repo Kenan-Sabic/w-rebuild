@@ -14,9 +14,13 @@ Figure out partition scheme for next system/setup
 
 Make a naming scheme for devices/domain/users/disks on new setup
 
-Make a user scheme (local administrator, everyday user)
+Make a user scheme (local administrator, everyday user, unsafe user for running sketchy things)
 
 Find best practices for hardening and security of devices and systems (where reasonable)
+
+Look into encryption of disks and systems. Windows can encrypt C with Bitlocker, LUKS can work for Linux, shared stroage can be encrypted with third party tools (Apparently VeraCrypt works for that).
+
+Look into network configuration for security, blocking inbound connections in firewall except where needed for hosting servers for games and whatnot, figure out which applications would need to have inbound connections allowed. Look into addressing scheme and hostname scheme for devices on the network. Also perhaps look into monitoring ingress/egress network traffic either on devices themselves OR with an external device and perhaps even a system to store/analize logs and delete them after some time.
 
 
 
