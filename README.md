@@ -63,6 +63,8 @@ Wireshark
 ## Archive Tools
 7zip
 
+Nanazip
+
 ## Recording
 OBS Studio
 
@@ -127,15 +129,10 @@ AutoHotkey
 
 KeePassXC
 
+Sysinternals
+
 # Winget installer version
 
-Some packages seem to not work properly 
-
-KDE.Okular.Nightly (replaced with KDE.Okular)
-
-Lively (fails to install with script, install from microsoft store instead)
-
-Alacritty (doesn't work here either)
 
 # Different Windows Versions
 The scripts were tested using VMs ran on HyperV, this has the effect of not having hybernation enabled by default, hybernation in my own testing using machines with around 16 to 20Gb of ram produces a hybernation f ile roughly the size of 6 to 10Gb.
@@ -143,7 +140,7 @@ On bare metal this file will be present by default increasing the size of all fi
 
 
 ###Note about what is considered bloatware
-Mentioned below are figures of systems with bloatware removed. Bloatware in my case includes the following default applications and features that I tend to remove on every one of my systems:
+Mentioned below are disk space of systems with bloatware removed. Bloatware in my case includes the following default applications and features that I tend to remove on every one of my systems:
 
 Applications:
 
@@ -219,6 +216,7 @@ Other:
 
 Settings -> Offline Maps -> Delete All Maps
 
+Disabling hybernation 
 
 
 
@@ -242,5 +240,5 @@ Tiny11 Fresh Install: 10Gb
 
 Tiny11 After Updates: 16Gb
 
-No bloat here :3
+No bloat to remove
 
