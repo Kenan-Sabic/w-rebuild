@@ -53,7 +53,9 @@ Windows central guide for unattended install - https://www.windowscentral.com/ho
 
 Windows Hardening (FOSS GPL) Guidelines for hardening windows installations - https://github.com/beerisgood/Windows11_Hardening
 
+Firefox Hardening Reddit thread - https://www.reddit.com/r/browsers/comments/14sjcbe/suggestions_on_hardening_firefox/
 
+Firefox Hardening guide - https://brainfucksec.github.io/firefox-hardening-guide
 
 
 
