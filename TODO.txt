@@ -1,4 +1,6 @@
-Make definitive list of tweaks and tools to use
+Make definitive list of tweaks and tools to use (possibly look into microsoft tools made for OEM and similar instead of using third party tools)
+
+Do research on unattend files for automating configs during the installation process
 
 Make definitive list of software to install on fresh installations and do research on user and systemwide installation of software on windows.
 
