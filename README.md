@@ -1,4 +1,4 @@
-# windows-rebuild
+# w-rebuild
 Collection of scripts I personally use to configure my fresh installations of windows (10, 11, Tiny11).
 They are meant to automate the process of reinstalling and configuring all of the things I need on fresh installations of Windows as I found myself frequently reinstalling
 operating systems and having to configure them manually would often take too long thus I created these scripts to help speed things along.
