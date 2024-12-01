@@ -22,5 +22,8 @@ Look into encryption of disks and systems. Windows can encrypt C with Bitlocker,
 
 Look into network configuration for security, blocking inbound connections in firewall except where needed for hosting servers for games and whatnot, figure out which applications would need to have inbound connections allowed. Look into addressing scheme and hostname scheme for devices on the network. Also perhaps look into monitoring ingress/egress network traffic either on devices themselves OR with an external device and perhaps even a system to store/analize logs and delete them after some time.
 
+Establish a testing environment (possibly virtual machine) for testing applications and games obtained from unofficial and dubious sources.
+Some games may request administrator access (older games from xp era and earlier) and might need to be monitored through process monitor or similar tools
+to establish whether they are altering registry, accessing protected directory like 'Program Files' or something else. 
 
 
