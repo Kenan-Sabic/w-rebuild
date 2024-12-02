@@ -1,0 +1,103 @@
+List of software in consideration for use on Windows split into categories with details explaining their use case, advantages and disadvantages
+This is partially to ennumerate my options at every step and have a single place to consider all the options 
+
+Archive Tools:
+1. 7zip
+2. Nanazip
+3. Peazip
+
+Browsers:
+1. Firefox
+2. Brave
+3. Falkon
+4. Chromium
+
+Office suites:
+1. Microsoft Office
+2. LibreOffice
+3. OnlyOffice
+4. Google office suites
+
+PDF Viewer:
+1. Okular
+2. Sumatra PDF
+
+Torrent Clients:
+1. Qbittorrent
+2. Transmission
+3. Ktorrent
+
+Text Editors:
+1. Kate
+2. VSCode
+3. Visual Studio
+4. VSCodium
+5. Notepad++
+
+Network Tools:
+1. Wireshark
+
+Screen Recording:
+1. OBS Studio
+
+Screenshot:
+1. ShareX
+
+Media Players:
+VLC Player
+MPV Player
+
+Video Streaming Clients:
+1. Stremio
+2. Miru
+
+Audio Players:
+
+Gaming Platforms:
+1. Steam Client
+2. GOG Galaxy
+3. Steam CLI
+4. Itch client
+5. Epic Games Launcher
+
+Minecraft Launchers: 
+1. ATLauncher
+2. Prism Launcher
+
+Messaging clients:
+1. Discord client
+2. Discord canary
+3. Whatsapp
+4. Viber
+5. Telegram
+6. Signal
+
+Version Control:
+1. Git
+
+Wallpaper Tools:
+1. Lively
+2. Wallpaper engine
+
+Widget tools:
+1. Rainmeter
+
+Taskbar customization:
+1. TranslucentTB
+2. Rounded Taskbar (possibly deprecated)
+
+Imaging Tools for OS installations:
+1. Rufus
+2. Balena Etcher
+3. Raspberry Pi Imager
+4. Ventoy
+
+Password manager:
+1. Bitwarden
+2. KeepassXC
+
+
+
+
+
+
