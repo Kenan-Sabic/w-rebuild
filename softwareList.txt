@@ -33,6 +33,7 @@ Text Editors:
 3. Visual Studio
 4. VSCodium
 5. Notepad++
+6. GNU Emacs
 
 Network Tools:
 1. Wireshark
@@ -42,6 +43,7 @@ Screen Recording:
 
 Screenshot:
 1. ShareX
+2. Snipping tool
 
 Media Players:
 VLC Player
@@ -52,6 +54,9 @@ Video Streaming Clients:
 2. Miru
 
 Audio Players:
+
+Audio Editors:
+1. Audacity
 
 Gaming Platforms:
 1. Steam Client
@@ -85,6 +90,25 @@ Widget tools:
 Taskbar customization:
 1. TranslucentTB
 2. Startallback
+3. 7+ Taskbar Tweaker
+4. Startallback
+5. Classic Shell
+
+Window Customization
+1. Windhawk
+
+Search Customization:
+1. BeautySearch
+
+Context Menu Tools:
+1. Nilesoft Shell
+2. File Converter
+
+Brightness Adjuster:
+1. Twinkle Tray
+
+Volume Adjuster:
+1. EarTrumpet
 
 Imaging Tools for OS installations:
 1. Rufus
@@ -92,12 +116,70 @@ Imaging Tools for OS installations:
 3. Raspberry Pi Imager
 4. Ventoy
 
+Hypervisors:
+1. HyperV
+2. Virtualbox
+3. VMWare
+
 Password manager:
 1. Bitwarden
 2. KeepassXC
+3. Keepass
 
+Email Client:
+1. Outlook
+2. Thunderbird
 
+System Package Managers:
+1. Winget
+2. Chocolatey
+3. Microsoft store (I guess)
+4. WingetUI (GUI for Choco, Winget etc.)
 
+Raster Graphics Editor:
+1. GIMP
+2. MS Paint
+3. Aseprite
+4. Libresprite
+5. Krita
 
+Vector Graphics Editor:
+1. Inkscape
 
+Search Tools:
+1. EverythingToolbar
 
+Remote Desktop:
+1. Anydesk
+2. TeamViewer
+3. Remote Desktop Connection (windows builtin)
+4. RustDesk
+
+Terminal Emulator:
+1. Windows Terminal
+2. Powershell 
+
+Temperature Monitors:
+1. LibreHardwareMonitor
+
+Application Launcher:
+1. ueli
+2. Flow Launcher
+
+Image Viewer
+1. JPEGView
+2. Photos (Windows builtin)
+3. ImageView
+4. ImageGlass
+
+Backup Tools:
+1. KopiaUI
+
+Uninstaller:
+1.BCUninstaller
+
+File Manager
+1. Files
+
+Various Tools:
+1. Powertoys
