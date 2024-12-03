@@ -84,7 +84,7 @@ Widget tools:
 
 Taskbar customization:
 1. TranslucentTB
-2. Rounded Taskbar (possibly deprecated)
+2. Startallback
 
 Imaging Tools for OS installations:
 1. Rufus
