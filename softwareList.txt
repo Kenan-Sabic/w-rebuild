@@ -131,6 +131,8 @@ Music Streaming Clients:
 Audio Editors:
 1. Audacity
 
+Comic/Manga Downloader:
+1. HakuNeko
 
 
 #GRAPHICS TOOLS:
@@ -228,6 +230,8 @@ Application Launcher:
 Terminal Emulator:
 1. Windows Terminal
 2. Powershell 
+3. ExtraTerm
+4. Alacritty (couldn't manage to get it to work)
 
 Temperature Monitors:
 1. LibreHardwareMonitor
@@ -249,6 +253,14 @@ Hypervisors:
 2. Virtualbox
 3. VMWare Workstation
 
+Emulators:
+1. Bluestacks (Android Emulator)
+2. VICE (Commodore 64 emulator)
+3. Neko Project 21/W (PC 98)
+4. DosBox (DOS)
+5. 86Box (X86 based computers)
+6. martypc (IBM PC/XT)
+
 Password managers:
 1. Bitwarden
 2. KeepassXC
@@ -262,6 +274,9 @@ System Package Managers and patch managers:
 5. Patch My PC
 6. Ninite
 
+Service Managers:
+1. NSSM
+
 Search Tools:
 1. EverythingToolbar
 
@@ -270,6 +285,7 @@ Backup Tools:
 
 Encryption:
 1. VeraCrypt
+2. Bitlocker 
 
 Uninstaller:
 1. BCUninstaller
@@ -292,3 +308,4 @@ Misc Tools:
 1. Deskreen -AGPLv3 (Turn other devices like phones, tablets etc. into additional monitors)
 2. Powertoys
 3. SysInternals
+4. bottom (tui process/system monitor)
