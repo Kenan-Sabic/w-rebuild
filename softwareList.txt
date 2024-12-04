@@ -20,7 +20,7 @@ Email Client:
 Torrent Clients:
 1. Qbittorrent
 2. Transmission
-3. Ktorrent
+3. Deluge
 
 Messaging clients:
 1. Discord client
@@ -47,6 +47,10 @@ FTP Client:
 1. WinSCP
 2. ffftp
 3. FileZilla
+
+File Share:
+1. OnionShare
+2. magic-wormhole
 
 #PRODUCTIVITY
 Archive Tools:
@@ -118,6 +122,7 @@ Image Viewer:
 Video Streaming Clients:
 1. Stremio
 2. Miru
+3. Popcorn-Time
 
 Music Streaming Clients:
 1. Spotify
