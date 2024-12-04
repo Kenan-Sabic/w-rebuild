@@ -8,6 +8,10 @@ Browsers:
 2. Brave
 3. Falkon
 4. Chromium
+5. Opera
+6. Edge
+7. OperaGX
+8. Chrome
 
 Email Client:
 1. Outlook
@@ -36,6 +40,14 @@ Remote Desktop:
 4. RustDesk
 5. TigerVNC
 
+SSH Client:
+1. PuTTY
+
+FTP Client:
+1. WinSCP
+2. ffftp
+3. FileZilla
+
 #PRODUCTIVITY
 Archive Tools:
 1. 7zip
@@ -51,6 +63,7 @@ Office suites:
 PDF Viewer/Editors:
 1. Okular
 2. Sumatra PDF
+3. Foxit
 
 Text Editors:
 1. Kate
@@ -61,18 +74,30 @@ Text Editors:
 6. GNU Emacs
 7. CodeBlocks
 
+Tex/LaTeX editors:
+1. Kile
+2. TeXStudio
+3. Texmaker
+
 Version Control:
 1. Git
 
+Difference Checker/Comparer/Merger:
+1. KDiff3
+
+Data science/Statistics/Machine Learning tools:
+1. Weka
+2. Anaconda3
+3. Miniconda3
+
+Calculator:
+1. Qalculate!
+2. Calculator (Builtin app)
+3. Hamic (For Ham radio)
+4. SpeedCrunch
+
 
 #MULTIMEDIA
-Screen Recording:
-1. OBS Studio
-
-Screenshot:
-1. ShareX
-2. Snipping tool
-
 Media Players (Video and audio):
 1. VLC Player
 2. MPV Player
@@ -81,11 +106,14 @@ Audio Players:
 1. foobar2000
 2. Groove Music 
 3. qmmp
-Image Viewer
+4. Amarok
+
+Image Viewer:
 1. JPEGView
 2. Photos (Windows builtin)
 3. ImageView
 4. ImageGlass
+5. PicView
 
 Video Streaming Clients:
 1. Stremio
@@ -94,12 +122,12 @@ Video Streaming Clients:
 Music Streaming Clients:
 1. Spotify
 
-Video Editors:
-1. KDenLive
-
 Audio Editors:
 1. Audacity
 
+
+
+#GRAPHICS TOOLS:
 Raster Graphics Editor:
 1. GIMP
 2. MS Paint
@@ -110,6 +138,31 @@ Raster Graphics Editor:
 Vector Graphics Editor:
 1. Inkscape
 
+3D Graphics:
+1. Blender
+2. MakeHuman
+
+Diagram/UML tools:
+1. Umbrello 
+2. StarUML
+3. draw.io
+4. Graphviz
+
+Video Editors:
+1. KDenLive
+2. OpenShot Video Editor
+
+Screen Recording:
+1. OBS Studio
+
+Screenshot:
+1. ShareX
+2. Snipping tool
+3. Greenshot
+
+Converters:
+1. HandBrake
+2. VidCoder
 
 #GAMES
 Gaming Platforms and Launchers:
@@ -126,6 +179,9 @@ Minecraft Launchers:
 PSX Emulators:
 1. Duckstation
 
+Flight Simulators:
+1. FlightGear
+2. Microsoft Flight Simulator
 
 #CUSTOMIZATION AND UI 
 Wallpaper Tools:
@@ -171,7 +227,8 @@ Terminal Emulator:
 Temperature Monitors:
 1. LibreHardwareMonitor
 
-#OS TOOLS
+
+#SYSTEM TOOLS
 Imaging Tools for OS installations:
 1. Rufus
 2. Balena Etcher
@@ -188,11 +245,13 @@ Password managers:
 2. KeepassXC
 3. Keepass
 
-System Package Managers:
+System Package Managers and patch managers:
 1. Winget
 2. Chocolatey
 3. Microsoft store
 4. WingetUI (GUI for Choco, Winget etc.)
+5. Patch My PC
+6. Ninite
 
 Search Tools:
 1. EverythingToolbar
@@ -205,10 +264,15 @@ Encryption:
 
 Uninstaller:
 1. BCUninstaller
+2. Revo Uninstaller
 
 File Manager
 1. Files
+2. Dolphin
 
+Storage/disk tools:
+1. WinDirStat
+2. WizTree
 
-
-
+Misc Tools:
+1. Deskreen -AGPLv3 (Turn other devices like phones, tablets etc. into additional monitors)
