@@ -1,16 +1,46 @@
 List of software in consideration for use on Windows split into categories with details explaining their use case, advantages and disadvantages
 This is partially to ennumerate my options at every step and have a single place to consider all the options 
 
-Archive Tools:
-1. 7zip
-2. Nanazip
-3. Peazip
 
+#NETWORKS
 Browsers:
 1. Firefox
 2. Brave
 3. Falkon
 4. Chromium
+
+Email Client:
+1. Outlook
+2. Thunderbird
+
+Torrent Clients:
+1. Qbittorrent
+2. Transmission
+3. Ktorrent
+
+Messaging clients:
+1. Discord client
+2. Discord canary
+3. Whatsapp
+4. Viber
+5. Telegram
+6. Signal
+
+Network Monitoring Tools:
+1. Wireshark
+
+Remote Desktop:
+1. Anydesk
+2. TeamViewer
+3. Remote Desktop Connection (windows builtin)
+4. RustDesk
+5. TigerVNC
+
+#PRODUCTIVITY
+Archive Tools:
+1. 7zip
+2. Nanazip
+3. Peazip
 
 Office suites:
 1. Microsoft Office
@@ -18,14 +48,9 @@ Office suites:
 3. OnlyOffice
 4. Google office suites
 
-PDF Viewer:
+PDF Viewer/Editors:
 1. Okular
 2. Sumatra PDF
-
-Torrent Clients:
-1. Qbittorrent
-2. Transmission
-3. Ktorrent
 
 Text Editors:
 1. Kate
@@ -34,10 +59,13 @@ Text Editors:
 4. VSCodium
 5. Notepad++
 6. GNU Emacs
+7. CodeBlocks
 
-Network Tools:
-1. Wireshark
+Version Control:
+1. Git
 
+
+#MULTIMEDIA
 Screen Recording:
 1. OBS Studio
 
@@ -45,20 +73,46 @@ Screenshot:
 1. ShareX
 2. Snipping tool
 
-Media Players:
-VLC Player
-MPV Player
+Media Players (Video and audio):
+1. VLC Player
+2. MPV Player
+
+Audio Players:
+1. foobar2000
+2. Groove Music 
+3. qmmp
+Image Viewer
+1. JPEGView
+2. Photos (Windows builtin)
+3. ImageView
+4. ImageGlass
 
 Video Streaming Clients:
 1. Stremio
 2. Miru
 
-Audio Players:
+Music Streaming Clients:
+1. Spotify
+
+Video Editors:
+1. KDenLive
 
 Audio Editors:
 1. Audacity
 
-Gaming Platforms:
+Raster Graphics Editor:
+1. GIMP
+2. MS Paint
+3. Aseprite
+4. Libresprite
+5. Krita
+
+Vector Graphics Editor:
+1. Inkscape
+
+
+#GAMES
+Gaming Platforms and Launchers:
 1. Steam Client
 2. GOG Galaxy
 3. Steam CLI
@@ -69,17 +123,11 @@ Minecraft Launchers:
 1. ATLauncher
 2. Prism Launcher
 
-Messaging clients:
-1. Discord client
-2. Discord canary
-3. Whatsapp
-4. Viber
-5. Telegram
-6. Signal
+PSX Emulators:
+1. Duckstation
 
-Version Control:
-1. Git
 
+#CUSTOMIZATION AND UI 
 Wallpaper Tools:
 1. Lively
 2. Wallpaper engine
@@ -91,7 +139,6 @@ Taskbar customization:
 1. TranslucentTB
 2. Startallback
 3. 7+ Taskbar Tweaker
-4. Startallback
 5. Classic Shell
 
 Window Customization
@@ -110,50 +157,12 @@ Brightness Adjuster:
 Volume Adjuster:
 1. EarTrumpet
 
-Imaging Tools for OS installations:
-1. Rufus
-2. Balena Etcher
-3. Raspberry Pi Imager
-4. Ventoy
+Various Tools:
+1. Powertoys
 
-Hypervisors:
-1. HyperV
-2. Virtualbox
-3. VMWare
-
-Password manager:
-1. Bitwarden
-2. KeepassXC
-3. Keepass
-
-Email Client:
-1. Outlook
-2. Thunderbird
-
-System Package Managers:
-1. Winget
-2. Chocolatey
-3. Microsoft store (I guess)
-4. WingetUI (GUI for Choco, Winget etc.)
-
-Raster Graphics Editor:
-1. GIMP
-2. MS Paint
-3. Aseprite
-4. Libresprite
-5. Krita
-
-Vector Graphics Editor:
-1. Inkscape
-
-Search Tools:
-1. EverythingToolbar
-
-Remote Desktop:
-1. Anydesk
-2. TeamViewer
-3. Remote Desktop Connection (windows builtin)
-4. RustDesk
+Application Launcher:
+1. ueli
+2. Flow Launcher
 
 Terminal Emulator:
 1. Windows Terminal
@@ -162,24 +171,44 @@ Terminal Emulator:
 Temperature Monitors:
 1. LibreHardwareMonitor
 
-Application Launcher:
-1. ueli
-2. Flow Launcher
+#OS TOOLS
+Imaging Tools for OS installations:
+1. Rufus
+2. Balena Etcher
+3. Raspberry Pi Imager 
+4. Ventoy
 
-Image Viewer
-1. JPEGView
-2. Photos (Windows builtin)
-3. ImageView
-4. ImageGlass
+Hypervisors:
+1. HyperV
+2. Virtualbox
+3. VMWare Workstation
+
+Password managers:
+1. Bitwarden
+2. KeepassXC
+3. Keepass
+
+System Package Managers:
+1. Winget
+2. Chocolatey
+3. Microsoft store
+4. WingetUI (GUI for Choco, Winget etc.)
+
+Search Tools:
+1. EverythingToolbar
 
 Backup Tools:
 1. KopiaUI
 
+Encryption:
+1. VeraCrypt
+
 Uninstaller:
-1.BCUninstaller
+1. BCUninstaller
 
 File Manager
 1. Files
 
-Various Tools:
-1. Powertoys
+
+
+
