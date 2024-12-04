@@ -52,6 +52,7 @@ File Share:
 1. OnionShare
 2. magic-wormhole
 
+
 #PRODUCTIVITY
 Archive Tools:
 1. 7zip
@@ -169,6 +170,7 @@ Converters:
 1. HandBrake
 2. VidCoder
 
+
 #GAMES
 Gaming Platforms and Launchers:
 1. Steam Client
@@ -187,6 +189,7 @@ PSX Emulators:
 Flight Simulators:
 1. FlightGear
 2. Microsoft Flight Simulator
+
 
 #CUSTOMIZATION AND UI 
 Wallpaper Tools:
@@ -217,9 +220,6 @@ Brightness Adjuster:
 
 Volume Adjuster:
 1. EarTrumpet
-
-Various Tools:
-1. Powertoys
 
 Application Launcher:
 1. ueli
@@ -281,3 +281,5 @@ Storage/disk tools:
 
 Misc Tools:
 1. Deskreen -AGPLv3 (Turn other devices like phones, tablets etc. into additional monitors)
+2. Powertoys
+3. SysInternals
