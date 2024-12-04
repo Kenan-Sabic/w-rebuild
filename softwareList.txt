@@ -232,6 +232,10 @@ Terminal Emulator:
 Temperature Monitors:
 1. LibreHardwareMonitor
 
+Tiling Window Managers:
+1. Komorebi
+2. Workspacer
+3. GlazeWM
 
 #SYSTEM TOOLS
 Imaging Tools for OS installations:
@@ -278,6 +282,11 @@ File Manager
 Storage/disk tools:
 1. WinDirStat
 2. WizTree
+
+RPA Tools:
+1. Autohotkey
+2. OpenRPA
+3. BPMN-RPA Studio
 
 Misc Tools:
 1. Deskreen -AGPLv3 (Turn other devices like phones, tablets etc. into additional monitors)
