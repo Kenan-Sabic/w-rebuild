@@ -155,6 +155,7 @@ Diagram/UML tools:
 2. StarUML
 3. draw.io
 4. Graphviz
+5. Gnome Dia
 
 Video Editors:
 1. KDenLive
