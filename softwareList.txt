@@ -4,49 +4,50 @@ This is partially to ennumerate my options at every step and have a single place
 
 #NETWORKS
 Browsers:
-1. Firefox
-2. Brave
-3. Falkon
-4. Chromium
-5. Opera
-6. Edge
-7. OperaGX
-8. Chrome
+1. Firefox (MPL 2.0) - great extensions, widely supported
+2. Brave (MPL 2.0) - chromium based; pros: privacy, ad-blocking, Chome extensions; cons: crypto wallet
+3. Falkon (GPL) - made by KDE, based on QTWebEngine which is based on chromium; pros: apparently light on resources, built-in adblock, portable; cons: no extensions
+4. Ungoogled Chromium (BSD 3-Clause License) - blocks google stuff, even the web store, needs configuration
+5. Opera (Proprietary) - chromium based, no comment
+6. Edge (MIT kinda) - chromium based, comes installed on windows; pros: apparently best security, fancy microsoft integrations, already installed; cons: spyware, annoying ads, ugly
+7. OperaGX (Proprietary) - chromium based, fancy UI; pros: lots of builtin features, can limit resource use
+8. Chrome (Proprietary kinda) - lots of fancy google integrations; pros: pretty good security, wide support; cons: spyware, can't block ads on it well
+9. Tor Browser (BSD-3-Clause) - firefox based, access blocked sites, privacy
 
 Email Client:
-1. Outlook
-2. Thunderbird
+1. Thunderbird 
 
 Torrent Clients:
-1. Qbittorrent
-2. Transmission
-3. Deluge
+1. Qbittorrent (GPLv3)
+2. Transmission (GPLv3)
+3. Deluge (GPLv3)
 
 Messaging clients:
-1. Discord client
-2. Discord canary
-3. Whatsapp
-4. Viber
-5. Telegram
-6. Signal
+1. Discord (Proprietary) - rather buggy with self-updating sometimes ;available on winget
+2. Discord canary (Proprietary) -   ;available on winget
+3. Whatsapp (Proprietary) - widely used  ;available on winget
+4. Viber (Proprietary) - honestly rather buggy lately  ;available on winget
+5. Telegram (GNU-3.0-only) - pretty good stickers  ;available on winget
+6. Signal (GPLv3) - never used it ;available on winget
+7. Session (GNU GPL v3) - apparently really good privacy ;available on winget
 
 Network Monitoring Tools:
-1. Wireshark
+1. Wireshark (GNU GPLv2) - best network monitoring ; available on winget
 
 Remote Desktop:
-1. Anydesk
-2. TeamViewer
-3. Remote Desktop Connection (windows builtin)
-4. RustDesk
-5. TigerVNC
+1. Anydesk (Proprietary) - very easy to set up for both client and serverm doesn't need install and widely supported on many devices, can be rather buggy and lose connection ;available on winget
+2. TeamViewer (Proprietary) - works alright, requires account ;available on winget
+3. Remote Desktop Connection (windows builtin) - uses RDP which is very performant but proprietary microsoft tech, works pretty good with other windows devices, can self host.
+4. RustDesk (AGPL-3.0-only) - nice self hosting option, have yet to use this one.
+5. TigerVNC (GNU General Public License v2.0) - pretty easy to use, uses VNC which is widely supported across devices. Used it to config raspberry pi.
 
 SSH Client:
-1. PuTTY
+1. PuTTY (MIT) - used for SSH for a long time, lot of people swear by it.
 
 FTP Client:
-1. WinSCP
-2. ffftp
-3. FileZilla
+1. WinSCP (GPL) - two column file management with plenty of FTP and SCP options, integrates with putty and follows system theme, has tabs. Seems pretty good and lots of options.
+2. ffftp (BSD-2-Clause License) - a bit uglier than WinSCP but familiar layout. Lots of options and features
+3. FileZilla (GPLv2) - easy to use, pretty nice interface but not available on winget. On the upside it is on choco and can check for its own updates.
 
 File Share:
 1. OnionShare
