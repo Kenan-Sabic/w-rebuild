@@ -4,10 +4,13 @@ Reddit post I got most of these from - https://www.reddit.com/r/Windows11/commen
 
 Chris Titus clean win11 install - https://christitus.com/windows-11-perfect-install/
 
+Chris Titus tech windows utility (MIT) - https://github.com/ChrisTitusTech/winutil
+
 Bleachbit (FOSS) cleaner/shredder for windows and linux - https://www.bleachbit.org/
 
 Bloatynosy (FOSS MIT) debloat win11 - https://github.com/builtbybel/BloatyNosy/releases
 #TESTED BLOATYNOSY ON WIN11, seems pretty cool, offers uninstall of some annoying apps and allowed me to tweak some settings which would otherwise take longer, definitely a time saver
+but needs more documentation cause I can't be bothered to read the code, possibly better if I make my own tools for some of these.
 
 Winaero tweaker (Freeware) tweaks/registry tweaks and debloat - https://winaero.com/winaero-tweaker/#download
 
