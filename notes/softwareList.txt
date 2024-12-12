@@ -3,6 +3,10 @@ This is partially to ennumerate my options at every step and have a single place
 
 
 #NETWORKS
+
+Speed Test:
+1. Speedtest CLI (OOKLA)
+
 Browsers:
 1. Firefox (MPL 2.0) - great extensions, widely supported
 2. Brave (MPL 2.0) - chromium based; pros: privacy, ad-blocking, Chome extensions; cons: crypto wallet
@@ -53,6 +57,7 @@ File Share:
 1. OnionShare
 2. magic-wormhole
 
+
 VPN
 1. Radmin VPN
 2. Mullvad VPN
@@ -61,6 +66,12 @@ VPN
 5. WireGuard
 6. Tailscale
 7. Mozilla VPN
+
+Download Managers:
+1. Persepolis 
+2. JDownloader
+3. Vividl
+4. YT-DLP
 
 #PRODUCTIVITY
 Archive Tools:
@@ -73,6 +84,9 @@ Office suites:
 2. LibreOffice
 3. OnlyOffice
 4. Google office suites
+
+Learning:
+1. Anki
 
 PDF Viewer/Editors:
 1. Okular
@@ -140,9 +154,9 @@ Music Streaming Clients:
 Audio Editors:
 1. Audacity
 
-Comic/Manga Downloader:
+Comic/Manga/Book Downloader:
 1. HakuNeko
-
+2. Libgen Desktop
 
 #GRAPHICS TOOLS:
 Raster Graphics Editor:
@@ -169,6 +183,8 @@ Diagram/UML tools:
 Video Editors:
 1. KDenLive
 2. OpenShot Video Editor
+3. FFMPEG
+4. MKVToolNix
 
 Screen Recording:
 1. OBS Studio
@@ -190,6 +206,8 @@ Gaming Platforms and Launchers:
 3. Steam CLI
 4. Itch client
 5. Epic Games Launcher
+6. Newgrounds player
+7. Flashpoint
 
 Minecraft Launchers: 
 1. ATLauncher
@@ -202,6 +220,8 @@ Flight Simulators:
 1. FlightGear
 2. Microsoft Flight Simulator
 
+Standalone Games:
+1. Mindustry
 
 #CUSTOMIZATION AND UI 
 Wallpaper Tools:
@@ -219,6 +239,7 @@ Taskbar customization:
 
 Window Customization
 1. Windhawk
+2. Sizer (brianapps.net/sizer4)
 
 Search Customization:
 1. BeautySearch
@@ -259,10 +280,17 @@ Imaging Tools for OS installations:
 4. Ventoy
 5. AnyBurn (Proprietary) - disk burner
 
+Reverse engineering and memory analysis/editing:
+1. Ghidra (Apache License 2.0 / Public domain) - 
+2. Cheat Engine (Proprietary) - 
+3. Resource Hacker ( )
+4. CFF Explorer VIII
+5. PE Detective 
+
 Hypervisors:
 1. HyperV
 2. Virtualbox
-3. VMWare Workstation
+3. VMWare Workstation Pro
 
 Emulators:
 1. Bluestacks (Android Emulator)
@@ -289,7 +317,8 @@ Service Managers:
 1. NSSM
 
 Search Tools:
-1. EverythingToolbar
+1. EverythingToolbar (A.K.A Everything)
+2. 
 
 Backup Tools:
 1. KopiaUI
@@ -310,6 +339,9 @@ Storage/disk tools:
 1. WinDirStat
 2. WizTree
 
+Backup tools:
+1. Winhttrack
+
 RPA Tools:
 1. Autohotkey
 2. OpenRPA
@@ -320,3 +352,4 @@ Misc Tools:
 2. Powertoys
 3. SysInternals
 4. bottom (tui process/system monitor)
+5. Rich Copy
