@@ -1,5 +1,7 @@
 Links to useful software and guides to keep handy
 
+https://github.com/massgravel/Microsoft-Activation-Scripts
+
 Reddit post I got most of these from - https://www.reddit.com/r/Windows11/comments/1btqr50/i_collected_as_many_tweakstools_as_i_could_from/
 
 Chris Titus clean win11 install - https://christitus.com/windows-11-perfect-install/
