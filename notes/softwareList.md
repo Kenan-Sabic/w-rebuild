@@ -1,8 +1,15 @@
 List of software in consideration for use on Windows split into categories with details explaining their use case, advantages and disadvantages
 This is partially to ennumerate my options at every step and have a single place to consider all the options 
+# TABLE OF CONTENTS
+1. [Networks](#networks)
+2. [Productivity](#productivity)
+3. [Multimedia](#multimedia)
+4. [Games](#games)
+5. [Customization and UI](#customization-and-ui)
+6. [System tools](#system-tools)
 
 
-#NETWORKS
+# NETWORKS
 
 Speed Test:
 1. Speedtest CLI (OOKLA)
@@ -73,7 +80,7 @@ Download Managers:
 3. Vividl
 4. YT-DLP
 
-#PRODUCTIVITY
+# PRODUCTIVITY
 Archive Tools:
 1. 7zip
 2. Nanazip
@@ -125,7 +132,7 @@ Calculator:
 4. SpeedCrunch
 
 
-#MULTIMEDIA
+# MULTIMEDIA
 Media Players (Video and audio):
 1. VLC Player
 2. MPV Player
@@ -158,7 +165,7 @@ Comic/Manga/Book Downloader:
 1. HakuNeko
 2. Libgen Desktop
 
-#GRAPHICS TOOLS:
+ GRAPHICS TOOLS:
 Raster Graphics Editor:
 1. GIMP
 2. MS Paint
@@ -199,7 +206,7 @@ Converters:
 2. VidCoder
 
 
-#GAMES
+# GAMES
 Gaming Platforms and Launchers:
 1. Steam Client
 2. GOG Galaxy
@@ -223,7 +230,7 @@ Flight Simulators:
 Standalone Games:
 1. Mindustry
 
-#CUSTOMIZATION AND UI 
+# CUSTOMIZATION AND UI 
 Wallpaper Tools:
 1. Lively
 2. Wallpaper engine
@@ -272,7 +279,7 @@ Tiling Window Managers:
 2. Workspacer
 3. GlazeWM
 
-#SYSTEM TOOLS
+# SYSTEM TOOLS
 Imaging Tools for OS installations:
 1. Rufus
 2. Balena Etcher
