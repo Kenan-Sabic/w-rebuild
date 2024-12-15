@@ -15,21 +15,22 @@ or that it is a good idea to run any.
 # NETWORKS
 
 ## Network scan:
-1. [Nmap](https://nmap.org/)
+1. [Nmap](https://nmap.org/) ([Modified GNU GPLv2](https://nmap.org/book/man-legal.html)) | [winget](https://winget.run/pkg/Insecure/Nmap) | [choco](https://community.chocolatey.org/packages/nmap)
 
 ## Speed Test:
-1. [Speedtest CLI OOKLA](https://www.speedtest.net/apps/cli)
+1. [Speedtest CLI OOKLA](https://www.speedtest.net/apps/cli) ([Proprietary](https://www.speedtest.net/about/terms)) [winget](https://winget.run/pkg/Ookla/Speedtest.CLI) | [choco](https://community.chocolatey.org/packages/speedtest)
 
 ## Browsers:
-1. [Firefox](https://www.mozilla.org/en-US/firefox/) (MPL 2.0) - great extensions, widely supported, great privacy, works out of the box
-2. [Brave](https://brave.com/download/) (MPL 2.0) - chromium based; pros: privacy, ad-blocking, Chome extensions; cons: crypto wallet
-3. [Falkon](https://www.falkon.org/) (GPL) - made by KDE, based on QTWebEngine which is based on chromium; pros: apparently light on resources, built-in adblock, portable; cons: no extensions
-4. [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium-windows) (BSD 3-Clause License) - blocks google stuff, even the web store, needs configuration
-5. [Opera](https://www.opera.com/features) (Proprietary) - chromium based, no comment
-6. [Edge](https://www.microsoft.com/en-us/edge) (MIT kinda) - chromium based, comes installed on windows; pros: apparently best security, fancy microsoft integrations, already installed; cons: spyware, annoying ads
-7. [OperaGX](https://www.opera.com/gx) (Proprietary) - chromium based, fancy UI; pros: lots of builtin features, can limit resource use
-8. [Chrome](https://www.google.com/intl/en_us/chrome) (Proprietary kinda) - lots of fancy google integrations; pros: pretty good security, wide support; cons: spyware, can't block ads on it well
-9. [Tor Browser](https://www.torproject.org/) (BSD-3-Clause) - firefox based, access blocked sites, privacy
+1. [Firefox](https://www.mozilla.org/en-US/firefox/) ([MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/)) | [winget](https://winget.run/pkg/Mozilla/Firefox) | [MS Store](https://apps.microsoft.com/detail/9NZVDKPMR9RD?hl=en-us&gl=BA&ocid=pdpshare) | [choco](https://community.chocolatey.org/packages/Firefox) - great extensions, widely supported, great privacy, works out of the box
+   
+3. [Brave](https://brave.com/download/) ([MPL 2.0](https://github.com/brave/brave-browser/blob/master/LICENSE)) | [winget](https://winget.run/pkg/Brave/Brave) - chromium based; pros: privacy, ad-blocking, Chome extensions; cons: crypto wallet
+4. [Falkon](https://www.falkon.org/) (GPL) [winget](https://winget.run/pkg/KDE/Falkon) - made by KDE, based on QTWebEngine which is based on chromium; pros: apparently light on resources, built-in adblock, portable; cons: no extensions
+5. [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium-windows) (BSD 3-Clause License) | [winget](https://winget.run/pkg/eloston/ungoogled-chromium) - blocks google stuff, even the web store, needs configuration
+6. [Opera](https://www.opera.com/features) (Proprietary) | [winget](https://winget.run/pkg/Opera/Opera) - chromium based, no comment
+7. [Edge](https://www.microsoft.com/en-us/edge) (MIT kinda) - chromium based, comes installed on windows; pros: apparently best security, fancy microsoft integrations, already installed; cons: spyware, annoying ads
+8. [OperaGX](https://www.opera.com/gx) (Proprietary) - chromium based, fancy UI; pros: lots of builtin features, can limit resource use
+9. [Chrome](https://www.google.com/intl/en_us/chrome) (Proprietary kinda) - lots of fancy google integrations; pros: pretty good security, wide support; cons: spyware, can't block ads on it well
+10. [Tor Browser](https://www.torproject.org/) (BSD-3-Clause) - firefox based, access blocked sites, privacy
 
 ## Email Client:
 1. [Thunderbird](https://www.thunderbird.net/en-US/)
