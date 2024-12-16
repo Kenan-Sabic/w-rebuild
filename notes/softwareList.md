@@ -26,28 +26,28 @@ or that it is a good idea to run any.
 3. [Brave](https://brave.com/download/) ([MPL 2.0](https://github.com/brave/brave-browser/blob/master/LICENSE)) | [winget](https://winget.run/pkg/Brave/Brave) - chromium based; pros: privacy, ad-blocking, Chome extensions; cons: crypto wallet
 4. [Falkon](https://www.falkon.org/) (GPL) [winget](https://winget.run/pkg/KDE/Falkon) - made by KDE, based on QTWebEngine which is based on chromium; pros: apparently light on resources, built-in adblock, portable; cons: no extensions
 5. [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium-windows) (BSD 3-Clause License) | [winget](https://winget.run/pkg/eloston/ungoogled-chromium) - blocks google stuff, even the web store, needs configuration
-6. [Opera](https://www.opera.com/features) (Proprietary) | [winget](https://winget.run/pkg/Opera/Opera) - chromium based, no comment
-7. [Edge](https://www.microsoft.com/en-us/edge) (MIT kinda) - chromium based, comes installed on windows; pros: apparently best security, fancy microsoft integrations, already installed; cons: spyware, annoying ads
-8. [OperaGX](https://www.opera.com/gx) (Proprietary) - chromium based, fancy UI; pros: lots of builtin features, can limit resource use
-9. [Chrome](https://www.google.com/intl/en_us/chrome) (Proprietary kinda) - lots of fancy google integrations; pros: pretty good security, wide support; cons: spyware, can't block ads on it well
-10. [Tor Browser](https://www.torproject.org/) (BSD-3-Clause) - firefox based, access blocked sites, privacy
+6. [Opera](https://www.opera.com/features) ([Proprietary](https://www.opera.com/eula/computers/row)) | [winget](https://winget.run/pkg/Opera/Opera) - chromium based, no comment
+7. [Edge](https://www.microsoft.com/en-us/edge) (MIT kinda) | [winget](https://winget.run/pkg/Microsoft/Edge) - chromium based, comes installed on windows; pros: apparently best security, fancy microsoft integrations, already installed; cons: spyware, annoying ads
+8. [OperaGX](https://www.opera.com/gx) ([Proprietary](https://www.opera.com/eula/computers/row)) | [winget](https://winget.run/pkg/Opera/OperaGX) | - chromium based, fancy UI; pros: lots of builtin features, can limit resource use
+9. [Chrome](https://www.google.com/intl/en_us/chrome) (Proprietary) | [winget](https://winget.run/pkg/Google/Chrome) - lots of fancy google integrations; pros: pretty good security, wide support; cons: spyware, can't block ads on it well
+10. [Tor Browser](https://www.torproject.org/) (BSD-3-Clause) | [winget](https://winget.run/pkg/TorProject/TorBrowser) - firefox based, access blocked sites, privacy
 
 ## Email Client:
-1. [Thunderbird](https://www.thunderbird.net/en-US/)
+1. [Thunderbird](https://www.thunderbird.net/en-US/) | [MPLv2](https://www.mozilla.org/en-US/MPL/2.0/) | [winget](https://winget.run/pkg/Mozilla/Thunderbird)
 
 ## Torrent Clients:
-1. Qbittorrent (GPLv3)
-2. Transmission (GPLv3)
-3. Deluge (GPLv3)
+1. [Qbittorrent](https://www.qbittorrent.org/) | ([GPLv3](https://github.com/qbittorrent/qBittorrent/blob/master/COPYING)) | [winget](https://winget.run/pkg/qBittorrent/qBittorrent) |
+2. [Transmission](https://transmissionbt.com/) | ([GPLv3](https://github.com/transmission/transmission/blob/main/COPYING)) | [winget](https://winget.run/pkg/Transmission/Transmission)
+3. [Deluge](https://deluge-torrent.org/) | ([GPLv3](https://git.deluge-torrent.org/deluge/tree/LICENSE)) | [winget](https://winget.run/pkg/DelugeTeam/Deluge)
 
 ## Messaging clients:
-1. Discord (Proprietary) - rather buggy with self-updating sometimes ;available on winget
-2. Discord canary (Proprietary) -   ;available on winget
-3. Whatsapp (Proprietary) - widely used  ;available on winget
-4. Viber (Proprietary) - honestly rather buggy lately  ;available on winget
-5. Telegram (GNU-3.0-only) - pretty good stickers  ;available on winget
-6. Signal (GPLv3) - never used it ;available on winget
-7. Session (GNU GPL v3) - apparently really good privacy ;available on winget
+1. [Discord](https://discord.com/) | (Proprietary) | [winget](https://winget.run/pkg/Discord/Discord)  - rather buggy with self-updating sometimes
+2. [Discord canary](https://discord.com/) (Proprietary) | [winget](https://winget.run/pkg/Discord/Discord.Canary)  
+3. [Whatsapp](https://www.whatsapp.com/) (Proprietary) | [winget](https://winget.run/pkg/WhatsApp/WhatsApp)
+4. [Viber](https://www.viber.com/en/) (Proprietary)  | [winget](https://winget.run/pkg/Viber/Viber)
+5. [Telegram](https://desktop.telegram.org/) (GNU-3.0-only) | [winget](https://winget.run/pkg/Telegram/TelegramDesktop)
+6. [Signal](https://www.signal.org/) (GPLv3) | [winget](https://winget.run/pkg/OpenWhisperSystems/Signal)
+7. [Session](https://getsession.org/) (GNU GPL v3) | [winget]
 
 ## Network Monitoring Tools:
 1. Wireshark (GNU GPLv2) - best network monitoring ; available on winget
@@ -361,6 +361,11 @@ Wallpaper Tools:
 1. Autohotkey
 2. OpenRPA
 3. BPMN-RPA Studio
+
+## Hashing Utility
+1. [Hasher](https://www.den4b.com/products/hasher) [CC-BY-NC-ND-3.0](https://www.den4b.com/license)
+2. Certutil
+3. [HashTools](https://www.binaryfortress.com/HashTools/) [Freeware](https://www.binaryfortress.com/WindowInspector/License/)
 
 ## Misc Tools:
 1. Deskreen -AGPLv3 (Turn other devices like phones, tablets etc. into additional monitors)
